@@ -22,7 +22,7 @@ A Neovim plugin that integrates [KiloCode CLI](https://github.com/Kilo-Code/kilo
 
 ```lua
 {
-  "Kilo-Code/kilo-code.nvim",
+  "mikaoelitiana/kilo-code.nvim",
   config = function()
     require("kilo_code").setup()
   end,
@@ -33,7 +33,7 @@ A Neovim plugin that integrates [KiloCode CLI](https://github.com/Kilo-Code/kilo
 
 ```lua
 use {
-  "Kilo-Code/kilo-code.nvim",
+  "mikaoelitiana/kilo-code.nvim",
   config = function()
     require("kilo_code").setup()
   end,
@@ -142,7 +142,7 @@ For [LazyVim](https://www.lazyvim.org/) users, add the following to your configu
 ```lua
 -- In your lazy.nvim plugin spec
 {
-  "Kilo-Code/kilo-code.nvim",
+  "mikaoelitiana/kilo-code.nvim",
   dependencies = { "folke/which-key.nvim" },
   config = function()
     require("kilo_code").setup({
