@@ -2,7 +2,7 @@ rockspec_format = "3.0"
 package = "kilo-code"
 version = "scm-1"
 source = {
-  url = "git+https://github.com/Kilo-Code/kilo-code-nvim.git",
+  url = "git+https://github.com/mikaoelitiana/kilo-code.nvim.git",
 }
 description = {
   summary = "KiloCode integration for Neovim",
@@ -10,7 +10,7 @@ description = {
     A Neovim plugin that integrates KiloCode CLI into Neovim,
     providing a sidebar interface and automatic file change detection.
   ]],
-  homepage = "https://github.com/Kilo-Code/kilo-code-nvim",
+  homepage = "https://github.com/mikaoelitiana/kilo-code.nvim",
   license = "MIT",
 }
 dependencies = {
