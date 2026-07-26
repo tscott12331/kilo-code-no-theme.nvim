@@ -76,7 +76,9 @@ function M.watch_file(filepath, bufnr)
     end)
   end
 
-  watcher:start(filepath, false, on_change)
+  if watcher then
+      watcher:start(filepath, {}, on_change)
+  end
 end
 
 --- Stop watching a file
